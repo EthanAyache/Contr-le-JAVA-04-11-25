@@ -29,6 +29,11 @@ public class Main {
                     String categorie;
                     String etat;
                     int max;
+                    double totale;
+                    double prixLivre = 0;
+                    double prixJouet = 0;
+                    double plafondCategorie;
+
                     do {
                         System.out.print("Nombres de jours : ");
                         jours = input.nextInt();
@@ -59,8 +64,12 @@ public class Main {
                     if (jours > 5) {
                         System.out.println("Aucun remboursement possible.");
                     }
+                    plafondCategorie = categorie.equalsIgnoreCase("Livre")
+
+
                     break;
-                    
+
+
                 case 2:
                     double age;
                     String licencie;
