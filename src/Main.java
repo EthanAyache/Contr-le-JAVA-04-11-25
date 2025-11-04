@@ -31,7 +31,22 @@ public class Main
                     // A vous de jouer
                     break;
                 case 3 :
-                    // A vous de jouer
+                    int hauteur;
+                    do {
+                        System.out.print("Entrez la hauteur du triangle : ");
+                        hauteur = input.nextInt();
+                    }while(hauteur<1);
+
+                    for (int i=hauteur; i>0 ; i--)
+                    {
+                        for (int j=0; j < hauteur - i; j++) {
+                            System.out.print(" ");
+                        }
+                        for (int j=0; j<i; j++) {
+                            System.out.print("*" + " ");
+                        }
+                        System.out.println();
+                    }
                     break;
                 case 4 :
                     // A vous de joue
