@@ -34,7 +34,7 @@ public class Main
                     // A vous de jouer
                     break;
                 case 4 :
-                    // A vous de jouer
+                    // A vous de joue
                     break;
                 case 0 :
                     System.out.println("FIN DU PROGRAMME");
